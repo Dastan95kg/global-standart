@@ -1,0 +1,17 @@
+.copyright {
+    background: #8F9BB3;
+    padding: 19px 160px 42px;
+}
+
+
+.copyright__text {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.copyright__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
