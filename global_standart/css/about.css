@@ -1,0 +1,77 @@
+.about {
+    background: linear-gradient(180deg, #4B6782 0%, #403E53 100%);
+}
+
+.about__logo {
+    display: flex;
+    justify-content: center;
+    padding: 91px 0;
+}
+
+.about__wrapper {
+    margin-bottom: 35px;
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.about__wrapper p {
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.about__guardImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.about__list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70%;
+}
+
+.about__info {
+    text-align: center;
+}
+
+.about__info-text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-top: 9px;
+}
+
+.about__info-text.w50 {
+    width: 50%;
+}
+
+.about__team-img {
+    margin-bottom: 40px;
+}
+
+.about__wrapper .about__text {
+    width: 100%;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.about__text+.about__text {
+    margin-top: 15px;
+}
